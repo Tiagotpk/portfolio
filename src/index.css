@@ -4,6 +4,20 @@ html{
   scroll-behavior: smooth;
 
 }
+::-webkit-scrollbar{
+  width: 10px !important;
+}
+
+::-webkit-scrollbar-thumb{
+  /* border-top-left-radius: 10px; */
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* border-bottom-right-radius: 10px; */
+  background-color: #dd1b16;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(81, 73, 94, 0.7);
+}
 
 @tailwind base;
 @tailwind components;

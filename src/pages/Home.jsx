@@ -120,7 +120,7 @@ export default function Home() {
                 ></lottie-player>
               </div>
               <p className="text-2xl text-center my-5 font-semibold md:mx-5 px-14 py-10">
-                Alguma coisa sobre mim aqui . . . .
+                Meu nome é Tiago, sou mineiro da cidade de Formiga-MG. Estudo programação desde meados de 2023, quando decidi migrar de carreira para a área de desenvolvimento e tecnologia. Atualmente curso Análise e Desenvolvimento de Sistemas (UNICESUMAR). Uma das minhas maiores motivações é poder solucionar problemas e aplicar o que tenho praticado. Para mais informações, entre em contato!
               </p>
             </div>
           </div>
@@ -195,16 +195,17 @@ export default function Home() {
               </div>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <h1 className="text-2xl font-bold text-left w-1/3">
-                  Sou eu de novo hehehe. . .
+                  Algumas curiosidades . . .
                 <hr />
-                <pre className="text-xl my-5 font-mont font-semibold">
+                <pre className="text-xl my-5 font-mont font-semibold mx-12">
                   {JSON.stringify(
                     {
-                      name: "Tiago",
+                      name: "Tiago Reis",
                       age: "29",
-                      gender: "masculino",
                       country: "Brasil",
                       state: "MG",
+                      profession: "Developer",
+                      passion: "Beer"
                     },
                     null,
                     2

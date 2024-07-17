@@ -31,27 +31,27 @@ const projectsData  = [
   },
   {
     title: "ANIMAIS",
-    image: "./ecommerce.jpg",
+    image: "./animals.jpg",
     description: "Aplicativo desenvolvido com React, HTML e CSS, mostra um pouco de como comecei a desenvolver a tecnologia.",
     access: "https://github.com/Tiagotpk/animals"
   },
   {
     title: "BLOG",
     image: "./blog.jpg",
-    description: "Utilizei JavaScript, CSS e HTML, um dos meus primeiros projetos.",
-    access: "https://tiagotpk.github.io/blog/"
+    description: "Aplicativo usando React, Vite, HTML e CSS, uma LinkTree Básica para desenvolver minhas habilidades.",
+    access: "https://comment-blog-page.vercel.app/"
   },
   {
-    title: "EM BREVE",
-    image: "./notfound.jpg",
-    description: "...",
-    access: "/"
+    title: "LINK TREE",
+    image: "./linktree.png",
+    description: "Aplicativo usando React, Vite, HTML e CSS, uma LinkTree Básica para desenvolver minhas habilidades.",
+    access: "https://linktree-tiagotpks-projects.vercel.app/"
   },
   {
-    title: "EM BREVE-",
-    image: "./notfound.jpg",
-    description: "...",
-    access: "/"
+    title: "GERADOR DE SENHAS",
+    image: "./password.jpg",
+    description: "Aplicativo usando React, Vite, HTML e CSS, uma LinkTree Básica para desenvolver minhas habilidades.",
+    access: "https://password-generator-kohl-alpha.vercel.app/"
   },
 ]
 
