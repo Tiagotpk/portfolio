@@ -55,8 +55,8 @@ export default function Contact() {
             ></lottie-player>
           </div>
           <div className="w-screen flex justify-center">
-            <div className="md:w-full w-1/2 p-10 shadow-2xl bg-gray-50">
-            <h1 className="text-2xl font-semibold text-center">
+            <div className="md:w-full w-1/2 p-10 shadow-2xl bg-gray-50 sm:p-0 sm:-mt-20">
+            <h1 className="text-2xl font-semibold text-center sm:text-sm">
               Entre em contato para me conhecer melhor
             </h1>
             <form onSubmit={handleSubmit}>

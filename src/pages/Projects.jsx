@@ -29,18 +29,18 @@ export default function Projects() {
                 mode="normal"
               ></lottie-player>
             </div>
-            <p className="text-xl font-semibold text-center">
+            <p className="text-xl font-semibold text-center sm:text-sm">
               Boas ideias não são adotadas automaticamente, elas devem ser
               levadas à prática com paciência e coragem...
             </p>
-            <h1 className="text-3xl font-bold text-center mt-5" data-aos="slide-up">PORQUE</h1>
+            <h1 className="text-3xl font-bold text-center mt-5 sm:text-sm" data-aos="slide-up">PORQUE</h1>
           </div>
-          <div className="font-bold text-center bg-red-500 mx-20 p-20 text-white rounded-tl-full rounded-br-full md:mx-5">
-            <h1 className="text-7xl md:text-3xl" data-aos="slide-right" >O SEGREDO É . . .</h1>
-            <h1 className="text-7xl md:text-3xl" data-aos="slide-left" >A CONSTÂNCIA!!</h1>
+          <div className="font-bold text-center bg-red-500 mx-20 p-20 text-white rounded-tl-full rounded-br-full md:mx-5 sm:mx-3">
+            <h1 className="text-7xl md:text-3xl sm:text-lg" data-aos="slide-right" >O SEGREDO É . . .</h1>
+            <h1 className="text-7xl md:text-3xl sm:text-lg" data-aos="slide-left" >A CONSTÂNCIA!!</h1>
           </div>
         </div>
-        <div className="grid mt-20 md:grid-cols-1 grid-cols-3 items-center justify-center gap-10 mx-20 md:mx-5 ">
+        <div className="grid mt-20 md:grid-cols-1 sm:grid-cols-1 grid-cols-3 items-center justify-center gap-10 mx-20 md:mx-5 sm:mx-3">
           {projectsData.map((project) => {
             return (
               <div key={project.title}>
