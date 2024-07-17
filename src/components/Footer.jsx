@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>
-      <div className="h-44 md:h-28">
+      <div className="h-44 md:h-28 sm:h-24">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#2a2a2a"
@@ -13,12 +13,12 @@ export default function Footer() {
         </svg>
       </div>
       <div className="bg-theme w-screen flex justify-center">
-        <div className="md:w-full w-1/2">
+        <div className="sm:w-full md:w-full w-1/2">
           <div className="p-5 font-mont text-center text-gray-50">
             <p className="pb-5">Projetado e Desenvolvido por</p>
             <div className="h-1 border-2 border-gray-50 border-dotted"></div>
 
-            <div className="flex w-full justify-between pt-5 md:justify-center md:space-x-5">
+            <div className="flex w-full justify-between pt-5 md:justify-center sm:justify-center sm:space-x-5 md:space-x-5">
               <a
                 href="https://www.linkedin.com/in/tiagotpk"
                 target="_blank"

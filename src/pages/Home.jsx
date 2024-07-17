@@ -1,4 +1,4 @@
-import Layout from "../components/Layout"
+import Layout from "../components/Layout";
 import {
   FaAngular,
   FaBootstrap,
@@ -7,13 +7,13 @@ import {
   FaJs,
   FaReact,
   FaSass,
-} from "react-icons/fa6"
-import { SiTypescript } from "react-icons/si"
-import AOS from 'aos'
+} from "react-icons/fa6";
+import { SiTypescript } from "react-icons/si";
+import AOS from "aos";
 
 AOS.init({
   duration: 1000,
-})
+});
 
 export default function Home() {
   return (
@@ -23,11 +23,11 @@ export default function Home() {
           {/* Intro Section */}
           <div className="h-screen bg-theme">
             <div
-              className="grid md:grid-cols-1 grid-cols-2 h-screen items-center 
-            border-4 md:border-0 border-white mx-10 z-10 bg-theme
-            transform rotate-12 md:rotate-0"
+              className="grid md:grid-cols-1 sm:grid-cols-1 grid-cols-2 h-screen items-center 
+            border-4 md:border-0 sm:border-0 border-white mx-10 z-10 bg-theme
+            transform rotate-12 md:rotate-0 sm:rotate-0"
             >
-              <div className="h-1/2 md:-mt-20">
+              <div className="h-1/2 md:-mt-20 sm:-mt-20">
                 <lottie-player
                   src="https://lottie.host/ea886309-1723-4fe9-9dfd-93177bf7ad9e/ZagVG9RsGj.json"
                   background="transparent"
@@ -38,12 +38,15 @@ export default function Home() {
                   mode="normal"
                 ></lottie-player>
               </div>
-              <div className="text-6xl text-white font-bold md:text-4xl md:px-5 md:-mt-20">
-                <h1 data-aos='slide-right'>Seja Bem-Vindo(a)!</h1>
-                <h1 data-aos="slide-left">
+              <div className="text-6xl text-white font-bold md:text-4xl sm:text-xl sm:px-5 md:px-5 md:-mt-20 sm:-mt-20">
+                <h1 data-aos="slide-right">Seja Bem-Vindo(a)!</h1>
+                <h1 data-aos="slide-right">
                   Sou o <b className="text-green-500">Tiago</b>.
                 </h1>
-                <h1 className="text-4xl text-red-500 md:text-xl" data-aos="slide-left">
+                <h1
+                  className="text-4xl text-red-500 md:text-xl sm:text-xl"
+                  data-aos="slide-right"
+                >
                   Fullstack Developer
                 </h1>
               </div>
@@ -52,10 +55,13 @@ export default function Home() {
 
           {/* Tecnologias */}
           <div className="mt-20">
-            <h1 className="text-4xl font-bold text-center my-8" data-aos="slide-up">
+            <h1
+              className="text-4xl font-bold text-center my-8 sm:text-xl"
+              data-aos="slide-up"
+            >
               Tecnologias que uso:
             </h1>
-            <div className="grid md:grid-cols-1 grid-cols-4">
+            <div className="grid md:grid-cols-1 sm:grid-cols-1 grid-cols-4">
               <FaReact
                 size={180}
                 color="#7fffd4"
@@ -102,12 +108,12 @@ export default function Home() {
           {/* Sobre mim */}
           <div className="my-20">
             <div className="text-center h-52 bg-primary">
-              <h1 className="text-4xl font-bold text-white py-10">
+              <h1 className="text-4xl font-bold text-white py-10 sm:text-xl">
                 Quem é o Tiago???
               </h1>
             </div>
 
-            <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
+            <div className="md:mx-5 sm:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
               <div className="h-96" data-aos="zoom-in">
                 <lottie-player
                   src="https://lottie.host/6f613183-0aea-4a02-8ae1-30b3ffe7972e/WgBEmNo4TV.json"
@@ -119,8 +125,14 @@ export default function Home() {
                   mode="normal"
                 ></lottie-player>
               </div>
-              <p className="text-2xl text-center my-5 font-semibold md:mx-5 px-14 py-10">
-                Meu nome é Tiago, sou mineiro da cidade de Formiga-MG. Estudo programação desde meados de 2023, quando decidi migrar de carreira para a área de desenvolvimento e tecnologia. Atualmente curso Análise e Desenvolvimento de Sistemas (UNICESUMAR). Uma das minhas maiores motivações é poder solucionar problemas e aplicar o que tenho praticado. Para mais informações, entre em contato!
+              <p className="text-2xl text-center my-5 font-semibold sm:mx-5 md:mx-5 px-14 py-10">
+                Meu nome é Tiago, sou mineiro da cidade de Formiga-MG. Estudo
+                programação desde meados de 2023, quando decidi migrar de
+                carreira para a área de desenvolvimento e tecnologia. Atualmente
+                curso Análise e Desenvolvimento de Sistemas (UNICESUMAR). Uma
+                das minhas maiores motivações é poder solucionar problemas e
+                aplicar o que tenho praticado. Para mais informações, entre em
+                contato!
               </p>
             </div>
           </div>
@@ -128,12 +140,12 @@ export default function Home() {
           {/* Stack */}
           <div className="my-20">
             <div className="text-center h-52 bg-secondary">
-              <h1 className="text-4xl font-bold text-white py-10">
+              <h1 className="text-4xl font-bold text-white py-10 sm:text-xl">
                 Minha Stack Atual
               </h1>
             </div>
 
-            <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
+            <div className="md:mx-5 sm:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
               <div className="h-96" data-aos="zoom-in">
                 <lottie-player
                   src="https://lottie.host/93c48ed0-df25-486d-b2be-92ac1cf751fb/jMAVs1eC6R.json"
@@ -145,7 +157,7 @@ export default function Home() {
                   mode="normal"
                 ></lottie-player>
               </div>
-              <div className="grid md:grid-cols-1 grid-cols-3">
+              <div className="grid md:grid-cols-1 sm:grid-cols-1 grid-cols-3">
                 <div className="pl-10">
                   <h1 className="font-bold text-2xl">Front End</h1>
                   <hr className="border-gray-50 hover:border-gray-700 transition-colors" />
@@ -196,26 +208,25 @@ export default function Home() {
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <h1 className="text-2xl font-bold text-left w-1/3">
                   Algumas curiosidades . . .
-                <hr />
-                <pre className="text-xl my-5 font-mont font-semibold mx-12">
-                  {JSON.stringify(
-                    {
-                      name: "Tiago Reis",
-                      age: "29",
-                      country: "Brasil",
-                      state: "MG",
-                      profession: "Developer",
-                      passion: "Beer"
-                    },
-                    null,
-                    2
-                  )}
-                </pre>
+                  <hr />
+                  <pre className="text-xl my-5 font-mont font-semibold mx-12">
+                    {JSON.stringify(
+                      {
+                        name: "Tiago Reis",
+                        age: "29",
+                        country: "Brasil",
+                        state: "MG",
+                        profession: "Developer",
+                        passion: "Beer",
+                      },
+                      null,
+                      2
+                    )}
+                  </pre>
                 </h1>
               </div>
             </div>
           </div>
-          
         </div>
       </Layout>
     </>

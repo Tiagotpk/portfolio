@@ -5,13 +5,13 @@ html{
 
 }
 ::-webkit-scrollbar{
-  width: 10px !important;
+  width: 2px !important;
 }
 
 ::-webkit-scrollbar-thumb{
   /* border-top-left-radius: 10px; */
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
   /* border-bottom-right-radius: 10px; */
   background-color: #dd1b16;
 }

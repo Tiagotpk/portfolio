@@ -11,6 +11,7 @@ export default function Layout( {children} ) {
   useEffect(() => {
     window.scroll(0, 0)
   }, [])
+
   return (
     <div>
       <Header/>
