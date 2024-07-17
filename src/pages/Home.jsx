@@ -27,7 +27,7 @@ export default function Home() {
             border-4 md:border-0 sm:border-0 border-white mx-10 z-10 bg-theme
             transform rotate-12 md:rotate-0 sm:rotate-0"
             >
-              <div className="h-1/2 md:-mt-20 sm:-mt-20">
+              <div className="h-1/2 md:-mt-20 sm:-mt-5 sm:py-0">
                 <lottie-player
                   src="https://lottie.host/ea886309-1723-4fe9-9dfd-93177bf7ad9e/ZagVG9RsGj.json"
                   background="transparent"
@@ -125,7 +125,7 @@ export default function Home() {
                   mode="normal"
                 ></lottie-player>
               </div>
-              <p className="text-2xl text-center my-5 font-semibold sm:mx-5 md:mx-5 px-14 py-10">
+              <p className="text-2xl sm:text-sm sm:px-2 sm:py-2 text-center my-5 font-semibold sm:mx-5 md:mx-5 px-14 py-10">
                 Meu nome é Tiago, sou mineiro da cidade de Formiga-MG. Estudo
                 programação desde meados de 2023, quando decidi migrar de
                 carreira para a área de desenvolvimento e tecnologia. Atualmente
@@ -190,7 +190,7 @@ export default function Home() {
 
           {/* Dev Info */}
           <div>
-            <h1 className="text-4xl text-gray-500 text-center font-bold">
+            <h1 className="text-4xl text-gray-500 text-center font-bold sm:text-xl">
               Mais fatos sobre mim:
             </h1>
             <div className="h-screen relative text-gray-600">
@@ -205,11 +205,11 @@ export default function Home() {
                   mode="normal"
                 ></lottie-player>
               </div>
-              <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-left w-1/3">
-                  Algumas curiosidades . . .
+              <div className="absolute inset-0 flex flex-col items-center justify-center sm:items-right">
+                <h1 className="text-2xl font-bold text-left w-1/3 sm:text-sm sm:text-right">
+                  Algumas curiosidades ...
                   <hr />
-                  <pre className="text-xl my-5 font-mont font-semibold mx-12">
+                  <pre className="text-xl sm:text-sm sm:-mx-8 sm:my-0 my-5 font-mont font-semibold mx-12">
                     {JSON.stringify(
                       {
                         name: "Tiago Reis",
