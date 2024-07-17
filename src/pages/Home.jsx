@@ -64,7 +64,7 @@ export default function Home() {
             <div className="grid md:grid-cols-1 sm:grid-cols-1 grid-cols-4">
               <FaReact
                 size={180}
-                color="#7fffd4"
+                color="#7cc5d9"
                 className="w-full text-center mt-20 animate-bounce"
               />
               <FaAngular
