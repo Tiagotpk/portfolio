@@ -206,7 +206,7 @@ export default function Home() {
                 ></lottie-player>
               </div>
               <div className="absolute inset-0 flex flex-col items-center justify-center sm:items-right">
-                <h1 className="text-2xl font-bold text-left w-1/3 sm:text-sm sm:text-right">
+                <h1 className="text-2xl font-bold text-left w-1/3 sm:text-sm">
                   Algumas curiosidades ...
                   <hr />
                   <pre className="text-xl sm:text-sm sm:-mx-8 sm:my-0 my-5 font-mont font-semibold mx-12">

@@ -9,7 +9,7 @@ AOS.init({
 
 export default function Projects() {
   const handleRedirect = (url) => {
-    window.location.href = url;
+    window.open(url,'_blank')
   };
 
   return (

@@ -21,7 +21,7 @@ const projectsData  = [
     title: "LOGIN-PAGE",
     image: "./login.jpg",
     description: "Aplicativo que simula uma webpage de login, onde utilizei as tecnologias Angular, Sass e Javascript.",
-    access: "https://github.com/Tiagotpk/auth-front-login"
+    access: "https://auth-front-login.vercel.app/"
   },
   {
     title: "CALCULADORA",
@@ -33,7 +33,7 @@ const projectsData  = [
     title: "ANIMAIS",
     image: "./animals.jpg",
     description: "Aplicativo desenvolvido com React, HTML e CSS, mostra um pouco de como comecei a desenvolver a tecnologia.",
-    access: "https://github.com/Tiagotpk/animals"
+    access: "https://animals-navy.vercel.app/"
   },
   {
     title: "BLOG",
